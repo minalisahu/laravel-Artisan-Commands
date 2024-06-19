@@ -14,6 +14,7 @@ Optimize Commands,
     php artisan optimize:clear Remove the cached bootstrap files
 
 Make command,
+
     php artisan make:model User -mcr(-m:Create a new migration file for the model , -c: Create a new controller for the model,-r: should be a resource controller.)
     php artisan make:controller Create a new controller class
     php artisan make:event Create a new event class
