@@ -1,55 +1,77 @@
 # laravel-Artisan-Commands
 
 
-Here's a comprehensive list of all the artisan commands available in Laravel. You can get this list by running php artisan in your terminal within your Laravel project directory. Here are the commands categorized by their purpose:
+Here's a comprehensive list of  the artisan commands available in Laravel. Here are the commands categorized by their purpose:
 
-Route Commands
-route:cache Create a route cache file for faster route registration
-route:clear Remove the route cache file
-route:list List all registered routes
+Route Commands,
 
+    php artisan route:cache Create a route cache file for faster route registration
+    php artisan route:clear Remove the route cache file
+    php artisan route:list List all registered routes
 
-Optimize Commands
-optimize:clear Remove the cached bootstrap files
+Optimize Commands,
 
-Make Commands
-make:cast Create a new custom Eloquent cast class
-make:channel Create a new channel class
-make:command Create a new Artisan command
-make:component Create a new view component class
-make:controller Create a new controller class
-make:event Create a new event class
-make:exception Create a new custom exception class
-make:factory Create a new model factory
-make:job Create a new job class
-make:listener Create a new event listener class
-make:mail Create a new email class
-make:middleware Create a new middleware class
-make:migration Create a new migration file
-make:model Create a new Eloquent model class
-make:notification Create a new notification class
-make:observer Create a new observer class
-make:policy Create a new policy class
-make:provider Create a new service provider class
-make:request Create a new form request class
-make:resource Create a new resource
-make:rule Create a new validation rule
-make:scope Create a new scope class
-make:seeder Create a new seeder class
-make:test Create a new test class
-php artisan make:notification InvoicePaid --markdown=mail.invoice.paid
+    php artisan optimize:clear Remove the cached bootstrap files
+
+Make command,
 
 
-Migrate Commands
-migrate:fresh Drop all tables and re-run all migrations
-migrate:install Create the migration repository
-migrate:refresh Reset and re-run all migrations
-migrate:reset Rollback all database migrations
-migrate:rollback Rollback the last database migration
-migrate:status Show the status of each migration
+    php artisan make:controller Create a new controller class
+    php artisan make:event Create a new event class
+    php artisan make:factory Create a new model factory
+    php artisan make:job Create a new job class
+    php artisan make:listener Create a new event listener class
+    php artisan make:mail Create a new email class
+    php artisan make:middleware Create a new middleware class
+    php artisan make:migration Create a new migration file
+    php artisan make:model Create a new Eloquent model class
+    php artisan make:notification Create a new notification class
+    php artisan make:observer Create a new observer class
+    php artisan make:policy Create a new policy class
+    php artisan make:provider Create a new service provider class
+    php artisan make:request Create a new form request class
+    php artisan make:resource Create a new resource
+    php artisan make:rule Create a new validation rule
+    php artisan make:scope Create a new scope class
+    php artisan make:seeder Create a new seeder class
+    php artisan make:test Create a new test class
+    php artisan make:notification InvoicePaid --markdown=mail.invoice.paid
+    php artisan make:model User -mcr
+    php artisan make:cast Create a new custom Eloquent cast class
+    php artisan make:channel Create a new channel class
+    php artisan make:command Create a new Artisan command
+    php artisan make:component Create a new view component class
 
-Storage Commands
-storage:link Create the symbolic links configured for the application
+
+Migrate Commands,
+
+    php artisan migrate:fresh Drop all tables and re-run all migrations
+    php artisan migrate:install Create the migration repository
+    php artisan migrate:refresh Reset and re-run all migrations
+    php artisan migrate:reset Rollback all database migrations
+    php artisan migrate:rollback Rollback the last database migration
+    php artisan migrate:status Show the status of each migration
+
+Storage Commands,
+
+    php artisan storage:link Create the symbolic links configured for the application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Key Commands
 key:generate Set the application key
