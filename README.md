@@ -56,71 +56,62 @@ Storage Commands,
 
     php artisan storage:link Create the symbolic links configured for the application
 
+Key Commands,
+
+    php artisan key:generate Set the application key
+
+Cache Commands,
+
+    php artisan cache:clear Flush the application cache
+    php artisan cache:forget Remove an item from the cache
+    php artisan cache:table Create a migration for the cache database table
+    
+Config Commands,
+
+    php artisan config:cache Create a cache file for faster configuration loading
+    php artisan config:clear Remove the configuration cache file
+
+Database Commands,
+
+    php artisan db:seed Seed the database with records
+    php artisan db:wipe Drop all tables, views, and types
 
 
+Event Commands,
 
+    php artisan event:cache Discover and cache the application's events and listeners
+    php artisan event:clear Clear all cached events and listeners
+    php artisan event:generate Generate the missing events and listeners based on registration
+    php artisan event:list List the application's events and listeners
 
+Queue Commands,
 
+    php artisan queue:clear Delete all of the jobs from the specified queue
+    php artisan queue:failed List all of the failed queue jobs
+    php artisan queue:failed-table Create a migration for the failed queue jobs database table
+    php artisan queue:flush Flush all of the failed queue jobs
+    php artisan queue:forget Delete a failed queue job
+    php artisan queue:listen Listen to a given queue
+    php artisan queue:monitor Monitor the size of the specified queues
+    php artisan queue:prune-batches Prune stale entries from the batch database
+    php artisan queue:prune-failed Prune stale failed jobs from the database
+    php artisan queue:restart Restart queue worker daemons after their current job
+    php artisan queue:retry Retry a failed queue job
+    php artisan queue:retry-batch Retry the failed jobs for a batch
+    php artisan queue:table Create a migration for the queue jobs database table
+    php artisan queue:work Start processing jobs on the queue as a daemon
 
+Schedule Commands,
 
+    php artisan schedule:clear-cache Delete the cached mutex files created by scheduler
+    php artisan schedule:list List the scheduled commands
+    php artisan schedule:run Run the scheduled commands
+    php artisan schedule:test Run a scheduled command
+    php artisan schedule:work Start the schedule worker
 
+View Commands,
 
-
-
-
-
-
-
-
-
-Key Commands
-key:generate Set the application key
-
-Cache Commands
-cache:clear Flush the application cache
-cache:forget Remove an item from the cache
-cache:table Create a migration for the cache database table
-
-Config Commands
-config:cache Create a cache file for faster configuration loading
-config:clear Remove the configuration cache file
-
-Database Commands
-db:seed Seed the database with records
-db:wipe Drop all tables, views, and types
-
-
-Event Commands
-event:cache Discover and cache the application's events and listeners
-event:clear Clear all cached events and listeners
-event:generate Generate the missing events and listeners based on registration
-event:list List the application's events and listeners
-
-Queue Commands
-queue:clear Delete all of the jobs from the specified queue
-queue:failed List all of the failed queue jobs
-queue:failed-table Create a migration for the failed queue jobs database table
-queue:flush Flush all of the failed queue jobs
-queue:forget Delete a failed queue job
-queue:listen Listen to a given queue
-queue:monitor Monitor the size of the specified queues
-queue:prune-batches Prune stale entries from the batch database
-queue:prune-failed Prune stale failed jobs from the database
-queue:restart Restart queue worker daemons after their current job
-queue:retry Retry a failed queue job
-queue:retry-batch Retry the failed jobs for a batch
-queue:table Create a migration for the queue jobs database table
-queue:work Start processing jobs on the queue as a daemon
-
-Schedule Commands
-schedule:clear-cache Delete the cached mutex files created by scheduler
-schedule:list List the scheduled commands
-schedule:run Run the scheduled commands
-schedule:test Run a scheduled command
-schedule:work Start the schedule worker
-
-View Commands
-view:cache Compile all of the application's Blade templates
-view:clear Clear all compiled view files
+    php artisan view:cache Compile all of the application's Blade templates
+    php artisan view:clear Clear all compiled view files
 
 
