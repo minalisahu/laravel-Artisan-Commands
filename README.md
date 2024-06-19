@@ -1,4 +1,4 @@
-# laravel-Artisan-Commands
+# laravel-artisan-command
 
 To set up Laravel authentication with Bootstrap, you need to follow these steps:
   1.Require the Laravel UI package
