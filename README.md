@@ -14,8 +14,10 @@ Optimize Commands,
     php artisan optimize:clear Remove the cached bootstrap files
 
 Make command,
-
-
+    php artisan make:model User -mcr
+        -m: Create a new migration file for the model.
+        -c: Create a new controller for the model.
+        -r: Indicate that the controller should be a resource controller.
     php artisan make:controller Create a new controller class
     php artisan make:event Create a new event class
     php artisan make:factory Create a new model factory
@@ -36,7 +38,6 @@ Make command,
     php artisan make:seeder Create a new seeder class
     php artisan make:test Create a new test class
     php artisan make:notification InvoicePaid --markdown=mail.invoice.paid
-    php artisan make:model User -mcr
     php artisan make:cast Create a new custom Eloquent cast class
     php artisan make:channel Create a new channel class
     php artisan make:command Create a new Artisan command
