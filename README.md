@@ -15,7 +15,6 @@ Optimize Commands,
 
 Make command,
     php artisan make:model User -mcr
-    
         -m: Create a new migration file for the model.
         -c: Create a new controller for the model.
         -r: Indicate that the controller should be a resource controller.
