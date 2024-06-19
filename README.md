@@ -1,5 +1,17 @@
 # laravel-Artisan-Commands
 
+To set up Laravel authentication with Bootstrap, you need to follow these steps:
+  1.Require the Laravel UI package
+
+      composer require laravel/ui
+      
+2.Install Bootstrap with authentication scaffolding:
+
+    php artisan ui bootstrap --auth
+    
+3.Install dependencies and compile assets:
+
+    npm install && npm run dev
 
 Here's a comprehensive list of  the artisan commands available in Laravel. Here are the commands categorized by their purpose:
 
